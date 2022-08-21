@@ -1,0 +1,27 @@
+.mocktest_block2 {transition:1s; float: left;width: 25%; padding:0px;}
+@media screen and (max-width: 600px) {
+.mocktest_block2 {
+width: 50%;
+display: block;
+margin-bottom: 4px;}
+}
+.mocktest_block2 a:link{color:#4387f5!important;}
+.mocktest_block3 img{
+filter:hue-rotate(-30deg) saturate(100%);
+transition:1s;
+vertical-align:middle;
+background:#eee !important;
+height:px;
+width:90%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border:solid 2px #eef;
+box-sizing:border-box;
+border-radius:10px;
+margin:5px; 
+padding:0;
+color:#111 !important;
+transition:0.1s;
+}
+.mocktest_block3 img:hover{transition:1s;color:red !important; border:solid 2px #137699}
+.mocktest_block2 a{ text-decoration:none;}
+.single-page-container .nv-page-title h1{display:none !important;}
